@@ -6,9 +6,9 @@ const router=express.Router()
 
 
 router.get('/test',test)
-router.post('/update/:id',veryfyToken,updateUser)
-router.delete('/delete/:id',veryfyToken,deleteUser)
-router.get('/listings/:id',veryfyToken,getUserListings)
-router.get('/:id',veryfyToken,getUser)
+router.post('/update/:id',updateUser)
+router.delete('/delete/:id',deleteUser)
+router.get('/listings/:id',getUserListings)
+router.get('/:id',getUser)
 
 export default router

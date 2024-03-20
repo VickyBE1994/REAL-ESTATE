@@ -9,10 +9,10 @@ import { veryfyToken } from "../utils/verifyUser.js";
 
 const router=express.Router()
 
-router.post('/create',veryfyToken, createListing)
-router.delete('/delete/:id',veryfyToken, deleteListing)
-router.post('/update/:id',veryfyToken, updateListing)
-router.get('/get/:id',veryfyToken, getListing)
-router.get('/get',veryfyToken, getListings)
+router.post('/create', createListing)
+router.delete('/delete/:id',deleteListing)
+router.post('/update/:id', updateListing)
+router.get('/get/:id', getListing)
+router.get('/get', getListings)
 
 export default router
