@@ -1,6 +1,6 @@
 import express  from "express";
 import {test, updateUser,deleteUser,getUserListings,getUser} from "../Controllers/user.controller.js";
-import { veryfyToken } from '../utils/verifyUser.js'
+
 
 const router=express.Router()
 

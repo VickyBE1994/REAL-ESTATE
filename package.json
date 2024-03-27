@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": " node index.js"
-  
   },
   "author": "",
   "license": "ISC",
